@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  PaletteSwiftUIDemo
+//  ColorPaletteSwiftUIDemo
 //
 //  Created by Eduard Laryushkin on 25.07.2020.
 //  Copyright © 2020 edlar.ru. All rights reserved.

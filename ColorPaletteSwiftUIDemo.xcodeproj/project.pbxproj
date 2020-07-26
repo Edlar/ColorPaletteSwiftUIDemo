@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		839CB77924CC72790061D92E /* PaletteSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaletteSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839CB77924CC72790061D92E /* ColorColorPaletteSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorColorPaletteSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839CB77C24CC72790061D92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		839CB77E24CC72790061D92E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		839CB78024CC72790061D92E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		839CB77024CC72790061D92E = {
 			isa = PBXGroup;
 			children = (
-				839CB77B24CC72790061D92E /* PaletteSwiftUIDemo */,
+				839CB77B24CC72790061D92E /* ColorPaletteSwiftUIDemo */,
 				839CB77A24CC72790061D92E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		839CB77A24CC72790061D92E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				839CB77924CC72790061D92E /* PaletteSwiftUIDemo.app */,
+				839CB77924CC72790061D92E /* ColorColorPaletteSwiftUIDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		839CB77B24CC72790061D92E /* PaletteSwiftUIDemo */ = {
+		839CB77B24CC72790061D92E /* ColorPaletteSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
 				83E99BDD24CC760100F35702 /* Views */,
@@ -63,7 +63,7 @@
 				83E99BDF24CC765400F35702 /* Resources */,
 				839CB78424CC727C0061D92E /* Preview Content */,
 			);
-			path = PaletteSwiftUIDemo;
+			path = ColorPaletteSwiftUIDemo;
 			sourceTree = "<group>";
 		};
 		839CB78424CC727C0061D92E /* Preview Content */ = {
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		839CB77824CC72790061D92E /* PaletteSwiftUIDemo */ = {
+		839CB77824CC72790061D92E /* ColorPaletteSwiftUIDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 839CB78D24CC727C0061D92E /* Build configuration list for PBXNativeTarget "PaletteSwiftUIDemo" */;
+			buildConfigurationList = 839CB78D24CC727C0061D92E /* Build configuration list for PBXNativeTarget "ColorPaletteSwiftUIDemo" */;
 			buildPhases = (
 				839CB77524CC72790061D92E /* Sources */,
 				839CB77624CC72790061D92E /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = PaletteSwiftUIDemo;
+			name = ColorPaletteSwiftUIDemo;
 			productName = PaletteSwiftUIDemo;
-			productReference = 839CB77924CC72790061D92E /* PaletteSwiftUIDemo.app */;
+			productReference = 839CB77924CC72790061D92E /* ColorColorPaletteSwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 839CB77424CC72790061D92E /* Build configuration list for PBXProject "PaletteSwiftUIDemo" */;
+			buildConfigurationList = 839CB77424CC72790061D92E /* Build configuration list for PBXProject "ColorPaletteSwiftUIDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				839CB77824CC72790061D92E /* PaletteSwiftUIDemo */,
+				839CB77824CC72790061D92E /* ColorPaletteSwiftUIDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -313,16 +313,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PaletteSwiftUIDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ColorPaletteSwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = NQ25V2WSYR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/PaletteSwiftUIDemo/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ColorPaletteSwiftUIDemo/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.edlar.PaletteSwiftUIDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorColorPaletteSwiftUIDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,16 +333,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PaletteSwiftUIDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ColorPaletteSwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = NQ25V2WSYR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/PaletteSwiftUIDemo/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ColorPaletteSwiftUIDemo/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.edlar.PaletteSwiftUIDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorColorPaletteSwiftUIDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		839CB77424CC72790061D92E /* Build configuration list for PBXProject "PaletteSwiftUIDemo" */ = {
+		839CB77424CC72790061D92E /* Build configuration list for PBXProject "ColorPaletteSwiftUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				839CB78B24CC727C0061D92E /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		839CB78D24CC727C0061D92E /* Build configuration list for PBXNativeTarget "PaletteSwiftUIDemo" */ = {
+		839CB78D24CC727C0061D92E /* Build configuration list for PBXNativeTarget "ColorPaletteSwiftUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				839CB78E24CC727C0061D92E /* Debug */,
