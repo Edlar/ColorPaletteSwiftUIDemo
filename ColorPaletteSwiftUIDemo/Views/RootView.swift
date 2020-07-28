@@ -9,15 +9,15 @@
 import SwiftUI
 
 struct RootView: View {
-    @State var redSliderValue = Double.random(in: 0...255)
-    @State var greenSliderValue = Double.random(in: 0...255)
-    @State var blueSliderValue = Double.random(in: 0...255)
+    @State var redValue = Double.random(in: 0...255)
+    @State var greenValue = Double.random(in: 0...255)
+    @State var blueValue = Double.random(in: 0...255)
     
     @ObservedObject private var keyboard = KeyboardResponder()
     
-    private let redSliderColor = Color(.red)
-    private let greenSliderColor = Color(.green)
-    private let blueSliderColor = Color(.blue)
+    private let red = Color(.red)
+    private let green = Color(.green)
+    private let blue = Color(.blue)
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -30,21 +30,21 @@ struct ContentView_Previews: PreviewProvider {
 extension RootView {
     var body: some View {
         ZStack {
-            Color(red: redSliderValue / 255,
-                  green: greenSliderValue / 255,
-                  blue: blueSliderValue / 255)
+            Color(red: redValue / 255,
+                  green: greenValue / 255,
+                  blue: blueValue / 255)
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 Spacer()
                 VStack {
-                    SliderView(sliderValue: $redSliderValue,
-                               sliderColor: redSliderColor)
+                    SliderView(sliderValue: $redValue,
+                               sliderColor: red)
                     Spacer()
-                    SliderView(sliderValue: $greenSliderValue,
-                               sliderColor: greenSliderColor)
+                    SliderView(sliderValue: $greenValue,
+                               sliderColor: green)
                     Spacer()
-                    SliderView(sliderValue: $blueSliderValue,
-                               sliderColor: blueSliderColor)
+                    SliderView(sliderValue: $blueValue,
+                               sliderColor: blue)
                 }
                 .frame(height: 300)
                 .padding(20)

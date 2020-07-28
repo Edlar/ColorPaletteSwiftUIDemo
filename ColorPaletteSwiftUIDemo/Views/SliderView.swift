@@ -26,7 +26,7 @@ struct SliderView: View {
                     .foregroundColor(textColor)
             }
             TextFieldView(textFieldValue: $sliderValue,
-                          sliderColor: sliderColor)
+                          strokeColor: sliderColor)
         }
     }
 }
