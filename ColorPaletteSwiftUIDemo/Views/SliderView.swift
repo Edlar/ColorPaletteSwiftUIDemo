@@ -11,7 +11,7 @@ import SwiftUI
 struct SliderView: View {
     @Binding var sliderValue: Double
     
-    var sliderColor: Color
+    let sliderColor: Color
     
     private let textColor = Color(UIColor.systemGray)
     
@@ -25,20 +25,14 @@ struct SliderView: View {
                 Text("255")
                     .foregroundColor(textColor)
             }
-            TextField("0", value: $sliderValue, formatter: NumberFormatter())
-                .multilineTextAlignment(.center)
-                .padding(5)
-                .overlay(RoundedRectangle(cornerRadius: 10).stroke(sliderColor, lineWidth: 2))
-                .frame(width: 100)
-                .keyboardType(.numberPad)
+            TextFieldView(textFieldValue: $sliderValue,
+                          sliderColor: sliderColor)
         }
     }
 }
 
 struct SliderView_Previews: PreviewProvider {
-    @State static var sliderValue = 100.0
-    
     static var previews: some View {
-        SliderView(sliderValue: $sliderValue, sliderColor: .red)
+        SliderView(sliderValue: .constant(100), sliderColor: .red)
     }
 }
